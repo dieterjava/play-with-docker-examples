@@ -1,5 +1,14 @@
-
 #### build a Spring Data CRUD app with maven on play-with-docker 
+
+#########################  How To
+
+Go to play-with docker page and login with your dockerhub account 
+https://labs.play-with-docker.com/
+
+Use copy / paste  and enter the commands below in the terminal
+
+CTRL + SHIFT + c  for copy
+CTRL + SHIFT + v  for paste
 
 #########################  start portainer
 docker volume create portainer_data
