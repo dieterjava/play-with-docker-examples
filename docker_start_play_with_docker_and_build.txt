@@ -25,6 +25,8 @@ docker run -it -v maven-repo:/root/.m2 -v "$PWD":/usr/src/app -w /usr/src/app ma
 ######################### run
 docker run -it -d --rm --name firstapp -p 18080:8080 -v maven-repo:/root/.m2 -v "$PWD":/usr/src/app -w /usr/src/app maven:3.6-openjdk-11 java -jar target/firstapp-1.0-SNAPSHOT.jar
 
+go to the following link and use the CRUD web application for posts
+.... play-with-docker.com:18080/posts
 ######################################################################################
 
 git clone https://github.com/dieterjava/firstapp
